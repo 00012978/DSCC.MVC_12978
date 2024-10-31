@@ -8,7 +8,7 @@ namespace DSCC.MVC.Controllers;
 public class PetController : Controller
 {
     private readonly HttpClient _httpClient;
-    private readonly string _apiBaseUrl = "http://localhost:5168/api/Pet"; // API link
+    private readonly string _apiBaseUrl = "http://dscc-api-12978.eu-central-1.elasticbeanstalk.com/api/Pet"; // API link
 
     public PetController(HttpClient httpClient)
     {

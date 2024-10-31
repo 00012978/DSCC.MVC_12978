@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 public class AdoptionController : Controller
 {
     private readonly HttpClient _httpClient;
-    private readonly string _apiBaseUrl = "http://localhost:5168/api/Adoption";
+    private readonly string _apiBaseUrl = "http://dscc-api-12978.eu-central-1.elasticbeanstalk.com/api/Adoption";
 
     public AdoptionController(HttpClient httpClient)
     {
